@@ -1,0 +1,14 @@
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map {
+  width: 200px;
+  height: 150px;
+}
+
+.map-title {
+  margin-left: 10px; /* Sesuaikan jarak antara peta dan judul */
+}

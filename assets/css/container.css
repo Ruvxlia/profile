@@ -1,0 +1,27 @@
+.container {
+  width: 80%; /* Sesuaikan dengan lebar yang Anda inginkan */
+  margin: 0 auto; /* Membuat container berada di tengah halaman */
+  text-align: center;
+}
+
+.progress-bar {
+  display: inline-block;
+  width: 80%; /* Lebar dari garis persentase */
+  background-color: #eee;
+  height: 20px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #007bff;
+  width: 90%; /* Sesuaikan dengan persentase */
+  border-radius: 5px;
+}
+
+.education {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 10px; /* Jarak antara garis persentase dan teks */
+}

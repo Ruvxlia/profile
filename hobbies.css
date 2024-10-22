@@ -1,0 +1,51 @@
+audio {
+  display: block;
+  margin: 0 auto;
+}
+.audio-container {
+  display: flex;
+  flex-direction: column; /* Agar elemen anak tertata secara vertikal */
+  justify-content: right;
+  align-items: right;
+
+  width: 100px;
+  height: 100px;
+  margin: 50px auto;
+  border-radius: 50%; /* Membuat bentuk lingkaran */
+  background-color: #D8BFD8; /* Warna latar belakang lingkaran */
+  position: relative; /* Agar elemen anak bisa diposisikan secara absolut */
+}
+
+.audio-container h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Warna teks judul */
+}
+
+audio {
+  display: block;
+  margin: 0 auto;
+}
+.audio-container {
+  display: flex;
+  flex-direction: column; /* Agar elemen anak tertata secara vertikal */
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 100px;
+  margin: 50px auto;
+  border-radius: 50%; /* Membuat bentuk lingkaran */
+  background-color: #D8BFD8; /* Warna latar belakang lingkaran */
+  position: relative; /* Agar elemen anak bisa diposisikan secara absolut */
+}
+
+.audio-container h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Warna teks judul */
+}
